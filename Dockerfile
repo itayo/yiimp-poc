@@ -24,7 +24,7 @@ RUN make install
 
 RUN git clone https://github.com/UFOCoins/ufo.git /build/ufo 
 WORKDIR "/build/ufo"
-RUN git checkout Desire-v.0.12.2.1
+RUN git checkout v0.11.0.0
 RUN chmod +x autogen.sh
 WORKDIR "/build/ufo/share"
 RUN chmod +x genbuild.sh
